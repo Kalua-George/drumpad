@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    font-weight:250;
+    color: #efdce5;
+}
+
+h1{
+    background-color: #0d0e0e;
+    text-align: center;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 6fr);
+    justify-content: center;
+    gap:50px ;
+    width: 90%;
+    margin:45px;
+    margin-top: 100px;
+    background: url(assets/images/drums.jpg);
+    background-size: cover;
+    border: 1px solid #020118;
+    border-radius: 10px;
+    
+
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    transition: all 0.5s;
+    background-color: #0b0493a1;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.played{
+    scale: 1.2;
+    border: 2px solid #0d0e0e;
+    box-shadow: 5px 5px 5px  #0b0132cb;
+}
+
+.audios{
+    display: none;
+}
